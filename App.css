@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  display: grid;
+  background-color: #154360;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.containerOfRows {
+  display: grid;
+  height: 100vh;
+}
+.topRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  grid-gap: 2rem;
+  margin: 6rem 2rem 0 18rem;
+}
+.bottomRow {
+  display: grid;
+  margin: 3rem 2rem 3rem 18rem;
+}
